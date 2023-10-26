@@ -1,35 +1,29 @@
 # test-work
+# Микросайт - Видео и Баннер
 
-This template should help get you started developing with Vue 3 in Vite.
+## Основные требования:
 
-## Recommended IDE Setup
+### Промо-видео и баннер
+- Встроенное промо-видео с YouTube.
+- Автоматическое воспроизведение без звука и контролов.
+- Баннер появляется через 5 секунд после начала воспроизведения видео.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Экран ввода номера
+- Экранная клавиатура для ввода номера.
+- Показ номера телефона в формате: `+7(XXX) XXX-XX-XX`.
+- Кнопка "Стереть" для удаления последней введенной цифры.
+- Возможность ввода номера с помощью физической клавиатуры.
+- Флажок для согласия на обработку персональных данных.
+- Кнопка "Подтвердить номер" активируется только при полном вводе номера и согласии на обработку ПД.
 
-## Customize configuration
+### Финальный инфо-экран
+- После подтверждения номера появляется сообщение о том, что с вами свяжется менеджер.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Дополнительные особенности:
+- Воспроизведение видео останавливается при переходе на экран ввода номера и возобновляется при возврате на экран видео.
+- Навигация по элементам экрана с помощью стрелок на клавиатуре.
+- Автоматическое закрытие окна ввода номера при бездействии в течение 10 секунд.
+- Поддержка работы с YouTube API.
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Исходный код:
+Код написан на Vue.js и содержит все необходимые обработчики и методы для реализации вышеуказанных требований.
