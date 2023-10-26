@@ -11,7 +11,7 @@
     ></iframe>
     <div v-if="bannerVisible" class="banner">
       <h1 class="banner__title">ИСПОЛНИТЕ МЕЧТУ ВАШЕГО МАЛЫША!<br />ПОДАРИТЕ ЕМУ СОБАКУ!</h1>
-      <img class="banner__img" src="../assets/index 1.png" alt="" />
+      <img class="banner__img" src="../assets/qr.png" alt="" />
       <p class="banner__text">Сканируйте QR-код<br />или нажмите ОК</p>
       <button @click="onBannerButtonClick" class="banner__btn">OK</button>
     </div>
@@ -60,7 +60,7 @@
         <button class="modal-exit__btn" ref="exitButton" @click="closeModal">
           <img src="../assets/out.png" alt="" />
         </button>
-        <img src="../assets/Frame 54.png" alt="" class="modal-exit__img" />
+        <img src="../assets/exit.png" alt="" class="modal-exit__img" />
       </div>
     </div>
   </div>
