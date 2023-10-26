@@ -277,9 +277,9 @@ iframe {
 .modal {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
   z-index: 1;
-  top: 8px;
+  top: 0px;
   width: 1280px;
   height: 720px;
   overflow: hidden;
